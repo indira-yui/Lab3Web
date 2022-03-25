@@ -56,3 +56,25 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
         </ul>
     </section>
 ```
+
+## 3). MCREATE DESCRIPTION LIST
+### Output
+![Description_List](img/description_list.png)
+**dl** atau ***Description List** adalah sebuah **LIST** yang menunjukan sebuah Deskripsi tertentu dan di dalam **dl** ada **dt** dan **dd**,**dt** sendiri adalah sebuah konten dari istilah sedangkan penjelasan nya ada di **dd** seperti itu urutan dari **dl** atau ***Description List** seperti contoh gambar di atas **dt** nya adalah nama **fakultas** sedangkan **dd** nya adalah **jurusan** .
+
+**CODE HTML**
+```html
+<section id="unorder-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Informatika</dd>
+            <dd>Teknik Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
+```

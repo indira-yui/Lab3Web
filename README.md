@@ -11,6 +11,7 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
 ### Output
 ![Ordered_List](img/ordered_list.png)
 ***ORDERED LIST*** adalah **LIST** yang sudah terdaftar sesuai urutan atau **LIST** yang terurut seperti dengan tag HTML nya yaitu **ol** contoh gambar di atas,**LIST** nya terurut sesuai nomor.
+
 **CODE HTML**
 ```html
 <!DOCTYPE html>
@@ -42,6 +43,7 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
 ### Output
 ![Unordered_List](img/unordered_list.png)
 ***UNORDERED LIST*** adalah **LIST** yang tidak terurut atau acak dengan tag HTML nya yaitu **ul** contoh gambar di atas yaitu ***UNORDERED LIST** **LIST** yang tidak terurut dengan 4 **li** atau **LIST** .
+
 **CODE HTML**
 ```html
 <section id="unorder-list">

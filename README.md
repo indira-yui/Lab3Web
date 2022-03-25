@@ -39,6 +39,7 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
 </html>
 ```
 
+
 ## 2). CREATE UNORDERED LIST
 ### Output
 ![Unordered_List](img/unordered_list.png)
@@ -57,7 +58,8 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
     </section>
 ```
 
-## 3). MCREATE DESCRIPTION LIST
+
+## 3). CREATE DESCRIPTION LIST
 ### Output
 ![Description_List](img/description_list.png)
 **dl** atau ***Description List** adalah sebuah **LIST** yang menunjukan sebuah Deskripsi tertentu dan di dalam **dl** ada **dt** dan **dd**,**dt** sendiri adalah sebuah konten dari istilah sedangkan penjelasan nya ada di **dd** seperti itu urutan dari **dl** atau ***Description List** seperti contoh gambar di atas **dt** nya adalah nama **fakultas** sedangkan **dd** nya adalah **jurusan** .
@@ -77,4 +79,53 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
             <dd>Bisnis Digital</dd>
         </dl>
     </section>
+```
+
+## 4). CREATE TABEL 
+### Output
+![table](img/create_table.png)
+***TABLE*** dalam HTML terdiri atas **thead** untuk ***table*** head dan kemudian ***tr*** untuk membuat ***table row*** dan di dalam **thead** ada ***th*** untuk table head nya,sementara untuk **tbody** yaitu table body sama harus di awali ***tr*** dan kemudian disusul **td** yaitu **table data** atau isi Deskripsi sebuah table,Seperti contoh gambar di atas lengkap dengan susunan dalam membuat ***Table***.
+
+**CODE HTML**
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h1>Membuat Table</h1>
+    </header>
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td>Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
 ```

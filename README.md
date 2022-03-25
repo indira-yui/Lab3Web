@@ -5,12 +5,11 @@
 |   TI.20.A.1       | PEMROGRAMAN WEB   |
 | PERTEMUAN 4       |       HTML        |
 
-Di Pertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan **FORM** dengan HTML.
+DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan **FORM** dengan HTML.
 
 ## 1). CREATE ORDERED LIST
 ### Output
 ![Ordered_List](img/ordered_list.png)
-**PENJELASAN**
 ***ORDERED LIST*** adalah **LIST** yang sudah terdaftar sesuai urutan atau **LIST** yang terurut seperti dengan tag HTML nya yaitu **ol** contoh gambar di atas,**LIST** nya terurut sesuai nomor.
 **CODE HTML**
 ```html
@@ -37,4 +36,21 @@ Di Pertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan 
     </section>
 </body>
 </html>
+```
+
+## 2). CREATE UNORDERED LIST
+### Output
+![Unordered_List](img/unordered_list.png)
+***UNORDERED LIST*** adalah **LIST** yang tidak terurut atau acak dengan tag HTML nya yaitu **ul** contoh gambar di atas yaitu ***UNORDERED LIST** **LIST** yang tidak terurut dengan 4 **li** atau **LIST** .
+**CODE HTML**
+```html
+<section id="unorder-list">
+        <h2>Unordered List</h2>
+        <ul type="square">
+            <li>Jaringan Komputer</li>
+            <li>Struktur Data</li>
+            <li>Algoritma & Pemrograman</li>
+            <li>Sistem Perangkat Lunak</li>
+        </ul>
+    </section>
 ```

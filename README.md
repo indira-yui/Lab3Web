@@ -129,3 +129,20 @@ DiPertemuan kali ini akan mempelajari bagaimana **MEMBUAT LIST**,**TABLE** dan *
 </body>
 </html>
 ```
+
+## 5). MENGATUR MARGIN DAN PADDING PADA TABLE
+Sebelum nya saya memberi cellpadding="4" dan cellspacing="0" 
+
+**CODE SEBELUM NYA** 
+```html
+ <table border="1" cellpadding="4" cellspacing="0">
+```
+dan saya ubah ke cellpadding="8" dan cellspacing="0" 
+
+**CODE SETELAH DIUBAH**
+```html
+<table border="1" cellpadding="8" cellspacing="0">
+```   
+maka tampilan di browser nya seperti gambar dibawah!
+![margin_padding_table](img/setting_table.png) 
+Untuk menambahkan margin dan padding pada  cell data tambahkan atribut **cellpadding** dan **cellspacing** seperti gambar di atas saya merubah padding nya agar terlihat ke dalam.
